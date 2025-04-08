@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import musicData from './HomeData.json';
 import './Home.css';
 import Main from '../Main/Main';
-import Sidebar from '../Sidebar/Sidebar';
+import Sidebar from '../sidebar/Sidebar';
 
 const Home = () => {
   const [selectedTrack, setSelectedTrack] = useState(null);
